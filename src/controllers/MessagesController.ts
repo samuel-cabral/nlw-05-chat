@@ -1,4 +1,5 @@
 import { Request, Response } from 'express';
+import { User } from '../entities/User';
 import { MessagesService } from '../services/MessagesService';
 
 class MessagesController {
@@ -14,6 +15,17 @@ class MessagesController {
     });
 
     return response.json(message);
+  }
+
+  // localhost:3333/settings/userId
+  async showByUser(request: Request, response: Response): Promise<Response> {
+    const { id } = request.params;
+
+    const messagesService = new MessagesService();
+
+    const list = await messagesService.listByUser(id);
+
+    return response.json(list);
   }
 }
 
