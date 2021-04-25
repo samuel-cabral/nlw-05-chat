@@ -25,12 +25,13 @@
     "no-unused-vars": "off",
     "camelcase": "off",
     "import/prefer-default-export": "off",
-  "@typescript-eslint/no-unused-vars": [
-    "warn",
-    {
-      "argsIgnorePattern": "^_"
-    }
-  ],
+    "@typescript-eslint/no-var-requires": "off",
+    "@typescript-eslint/no-unused-vars": [
+      "warn",
+      {
+        "argsIgnorePattern": "^_"
+      }
+    ],
     // "@typescript-eslint/naming-convention": [
     //   "error",
     //   {
@@ -39,7 +40,7 @@
     //     "format": ["PascalCase"]
     //   }
     // ],
-    "class-methods-use-this":"off",
+    "class-methods-use-this": "off",
     "import/extensions": [
       "error",
       "ignorePackages",
