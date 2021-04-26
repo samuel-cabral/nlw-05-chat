@@ -33,9 +33,9 @@ This project was developed with the following technologies:
 
 ## 💻 Project
 
-NPS-NLW is an application that consists of calculating the company's NPS. In it we make the registration of users, registration of surveys, sending e-mail for users to answer satisfaction surveys and with this we can perform the calculation of the NPS.
+CHAT-SUPPORT-NLW is an application that consists of providing a company's chat support. In it we make sending and receive messages between admin and client who need help.
 
-This project was developed during the NodeJS trail, in the fourth edition of NLW. We learned concepts about what an API is, how to start a project using Typescript and Express for route management, TypeORM for data manipulation, automated tests and sending e-mail.
+This project was developed during the NodeJS trail, in the fifth edition of NLW. We learned concepts about what an API is, how to start a project using Typescript and Express for route management, TypeORM for data manipulation and real-time websocket comunication.
 
 ## 🔶 Diagram
 
