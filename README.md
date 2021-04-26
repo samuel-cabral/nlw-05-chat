@@ -25,10 +25,10 @@
 This project was developed with the following technologies:
 
 - [TypeScript](https://www.typescriptlang.org/)
-- [Ethereal-Email](https://ethereal.email/)
+- [Socket-io](https://www.npmjs.com/package/socket.io)
 - [TypeORM](https://typeorm.io/#/)
-- [Express](https://expressjs.com/pt-br/)
-- [Jest](https://jestjs.io/)
+- [Express](https://expressjs.com/)
+- [Sqlite](https://sqlite.org/version3.html)
 - [SQL Editor Beekeeper Studio](https://www.beekeeperstudio.io/)
 
 ## 💻 Project
