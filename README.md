@@ -47,7 +47,7 @@ This project was developed during the NodeJS trail, in the fourth edition of NLW
 - Install the dependencies with `yarn`
 - Start the server with `yarn dev`
 
-The application can be accessed at [`localhost: 3333`](http://localhost:3333).
+The application can be accessed at [`http://localhost:3333`](http://localhost:3333).
 
 ## 📄 License
 
