@@ -17,7 +17,7 @@
 <br>
 
 <p align="center">
-  <img alt="Happy" src="https://www.flaticon.com/svg/vstatic/svg/3214/3214624.svg?token=exp=1619458224~hmac=2dc158837ee69e35db172e1b984975d8" width="10%">
+  <img alt="Happy" src="https://img.pngio.com/customer-service-icon-146703-free-icons-library-chat-customer-service-png-800_800.jpg" width="20%">
 </p>
 
 ## ✨ Technologies
