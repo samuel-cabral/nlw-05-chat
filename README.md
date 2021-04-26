@@ -39,7 +39,7 @@ This project was developed during the NodeJS trail, in the fourth edition of NLW
 
 ## 🔶 Diagram
 
-<img src="public/diagram.png" alt="Application diagram" />
+<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/a60bafa5-98ff-451d-bbcb-47924182b4de/chat.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210426%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210426T171029Z&X-Amz-Expires=86400&X-Amz-Signature=bd77eea0206e5411edc64dd687e1d35b3f4d6e0bda24104e224ec81c58254fa0&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22chat.png%22" alt="Application diagram" />
 
 ## 🚀 How to run
 
