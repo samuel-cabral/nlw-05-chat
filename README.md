@@ -1,198 +1,172 @@
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Thanks again! Now go create something AMAZING! :D
-***
-***
-***
-*** To avoid retyping too much info. Do a search and replace for the following:
-*** github_username, repo_name, twitter_handle, email, project_title, project_description
--->
+<h1 align="center">CHAT-SUPPORT-NLW</h1>
 
-
-
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-[![Forks][forks-shield]][https://github.com/samuel-cabral/nlw-05-chat/network/members]
-[![Stargazers][stars-shield]][https://github.com/samuel-cabral/nlw-05-chat/stargazers]
-[![Issues][issues-shield]][https://github.com/samuel-cabral/nlw-05-chat/issues]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][https://linkdedin.com/in/samuel-cabral]
-
-
-
-<!-- PROJECT LOGO -->
-<br />
 <p align="center">
-  <a href="https://github.com/samuel-cabral/nlw-05-chat">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
-
-  <h3 align="center">NLW5 Chat Support</h3>
-
-  <p align="center">
-    This is a chat support application built during the 'Next Level Week',
-    an online programming event promoted by Rocketseat Education.
-    <br />
-    <a href="https://github.com/samuel-cabral/nlw-05-chat"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/samuel-cabral/nlw-05-chat">View Demo</a>
-    ·
-    <a href="https://github.com/samuel-cabral/nlw-05-chat/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/samuel-cabral/nlw-05-chat/issues">Request Feature</a>
-  </p>
+  <a href="#-tenchs">Techs</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-project">About the project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-diagram">Diagram</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-how-to-run">How to run</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-licença">License</a>
 </p>
 
+<p align="center">
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=8257E5&labelColor=000000">
 
+ <img src="https://img.shields.io/static/v1?label=NLW&message=04&color=8257E5&labelColor=000000" alt="NLW 04" />
+</p>
 
-<!-- TABLE OF CONTENTS -->
-<details open="open">
-  <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
-  </ol>
-</details>
+<br>
 
+<p align="center">
+  <img alt="Happy" src=".github/preview.png" width="100%">
+</p>
 
+## ✨ Techs
 
-<!-- ABOUT THE PROJECT -->
-## About The Project
+This project was developed with the following technologies:
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Socket-io](https://www.npmjs.com/package/socket.io)
+- [TypeORM](https://typeorm.io/#/)
+- [Express](https://expressjs.com/)
+- [Sqlite3](https://sqlite.org/version3.html)
+- [SQL Editor Beekeeper Studio](https://www.beekeeperstudio.io/)
 
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`github_username`, `repo_name`, `twitter_handle`, `email`, `project_title`, `project_description`
+## 💻 About the Project
 
+CHAT-SUPPORT-NLW is an application that consists of providing a support chat to be added to your company's website, working as a customer service.
 
-### Built With
+This project was developed during the NodeJS track, in the fifth edition of NLW. We learned concepts about what an API is, how to start a project using Typescript and Express to manage routes, TypeORM to manipulate data and communicate in real time with websockets.
 
-* []()
-* []()
-* []()
+## 🔶 Diagram
 
+<img src = "public / diagram.png" alt = "Application diagram" />
 
+## 🚀 How to run
 
-<!-- GETTING STARTED -->
-## Getting Started
+- Clone the repository
+- Install the dependencies with `yarn`
+- Start the server with `yarn dev`
 
-To get a local copy up and running follow these simple steps.
+The application can be accessed at [`localhost: 3333`] (http: // localhost: 3333).
 
-### Prerequisites
+## 📄 License
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+This project is under the MIT license. See the [LICENSE] file (LICENSE.md) for more details.
 
-### Installation
+---
 
-1. Clone the repo
-   ```sh
-   git clone https://github.com/samuel-cabral/nlw-05-chat.git
-   ```
-2. Install NPM packages
-   ```sh
-   npm install
-   ```
+<h1 align = "center"> CHAT-SUPPORT-NLW </h1>
 
+<p align = "center">
+  <a href="#-tenchs"> Techs </a> & nbsp; & nbsp; & nbsp; | & nbsp; & nbsp; & nbsp;
+  <a href="#-project"> About the project </a> & nbsp; & nbsp; & nbsp; | & nbsp; & nbsp; & nbsp;
+  <a href="#-diagram"> Diagram </a> & nbsp; & nbsp; & nbsp; | & nbsp; & nbsp; & nbsp;
+  <a href="#-how-to-run"> How to run </a> & nbsp; & nbsp; & nbsp; | & nbsp; & nbsp; & nbsp;
+  <a href="#-licença"> License </a>
+</p>
 
+<p align = "center">
+  <img alt = "License" src = "https://img.shields.io/static/v1?label=license&message=MIT&color=8257E5&labelColor=000000">
 
-<!-- USAGE EXAMPLES -->
-## Usage
+ <img src = "https://img.shields.io/static/v1?label=NLW&message=04&color=8257E5&labelColor=000000" alt = "NLW 04" />
+</p>
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+<br>
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+<p align = "center">
+  <img alt = "Happy" src = ". github / preview.png" width = "100%">
+</p>
 
+## ✨ Techs
 
+This project was developed with the following technologies:
 
-<!-- ROADMAP -->
-## Roadmap
+- [TypeScript] (https://www.typescriptlang.org/)
+- [Socket-io] (https://www.npmjs.com/package/socket.io)
+- [TypeORM] (https://typeorm.io/#/)
+- [Express] (https://expressjs.com/)
+- [Sqlite3] (https://sqlite.org/version3.html)
+- [SQL Editor Beekeeper Studio] (https://www.beekeeperstudio.io/)
 
-See the [open issues](https://github.com/samuel-cabral/nlw-05-chat/issues) for a list of proposed features (and known issues).
+## 💻 About the Project
 
+CHAT-SUPPORT-NLW is an application that consists of providing a support chat to be added to your company's website, working as a customer service.
 
+This project was developed during the NodeJS track, in the fifth edition of NLW. We learned concepts about what an API is, how to start a project using Typescript and Express to manage routes, TypeORM to manipulate data and communicate in real time with websockets.
 
-<!-- CONTRIBUTING -->
-## Contributing
+## 🔶 Diagram
 
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+<img src = "public / diagram.png" alt = "Application diagram" />
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+## 🚀 How to run
 
+- Clone the repository
+- Install the dependencies with `yarn`
+- Start the server with `yarn dev`
 
+The application can be accessed at [`localhost: 3333`] (http: // localhost: 3333).
 
-<!-- LICENSE -->
-## License
+## 📄 License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+This project is under the MIT license. See the [LICENSE] file (LICENSE.md) for more details.
 
+---
 
+Made with ♥ by Samuel with [<h1 align = "center"> CHAT-SUPPORT-NLW </h1>
 
-<!-- CONTACT -->
-## Contact
+<p align = "center">
+  <a href="#-tenchs"> Techs </a> & nbsp; & nbsp; & nbsp; | & nbsp; & nbsp; & nbsp;
+  <a href="#-project"> About the project </a> & nbsp; & nbsp; & nbsp; | & nbsp; & nbsp; & nbsp;
+  <a href="#-diagram"> Diagram </a> & nbsp; & nbsp; & nbsp; | & nbsp; & nbsp; & nbsp;
+  <a href="#-how-to-run"> How to run </a> & nbsp; & nbsp; & nbsp; | & nbsp; & nbsp; & nbsp;
+  <a href="#-licença"> License </a>
+</p>
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email
+<p align = "center">
+  <img alt = "License" src = "https://img.shields.io/static/v1?label=license&message=MIT&color=8257E5&labelColor=000000">
 
-Project Link: [https://github.com/samuel-cabral/nlw-05-chat](https://github.com/samuel-cabral/nlw-05-chat)
+ <img src = "https://img.shields.io/static/v1?label=NLW&message=04&color=8257E5&labelColor=000000" alt = "NLW 04" />
+</p>
 
+<br>
 
+<p align = "center">
+  <img alt = "Happy" src = ". github / preview.png" width = "100%">
+</p>
 
-<!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
+## ✨ Techs
 
-* []()
-* []()
-* []()
+This project was developed with the following technologies:
 
+- [TypeScript] (https://www.typescriptlang.org/)
+- [Socket-io] (https://www.npmjs.com/package/socket.io)
+- [TypeORM] (https://typeorm.io/#/)
+- [Express] (https://expressjs.com/)
+- [Sqlite3] (https://sqlite.org/version3.html)
+- [SQL Editor Beekeeper Studio] (https://www.beekeeperstudio.io/)
 
+## 💻 About the Project
 
+CHAT-SUPPORT-NLW is an application that consists of providing a support chat to be added to your company's website, working as a customer service.
 
+This project was developed during the NodeJS track, in the fifth edition of NLW. We learned concepts about what an API is, how to start a project using Typescript and Express to manage routes, TypeORM to manipulate data and communicate in real time with websockets.
 
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo.svg?style=for-the-badge
-[contributors-url]: https://github.com/github_username/repo/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/github_username/repo.svg?style=for-the-badge
-[forks-url]: https://github.com/github_username/repo/network/members
-[stars-shield]: https://img.shields.io/github/stars/github_username/repo.svg?style=for-the-badge
-[stars-url]: https://github.com/github_username/repo/stargazers
-[issues-shield]: https://img.shields.io/github/issues/github_username/repo.svg?style=for-the-badge
-[issues-url]: https://github.com/github_username/repo/issues
-[license-shield]: https://img.shields.io/github/license/github_username/repo.svg?style=for-the-badge
-[license-url]: https://github.com/github_username/repo/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/github_username
+## 🔶 Diagram
+
+<img src = "public / diagram.png" alt = "Application diagram" />
+
+## 🚀 How to run
+
+- Clone the repository
+- Install the dependencies with `yarn`
+- Start the server with `yarn dev`
+
+The application can be accessed at [`localhost: 3333`] (http: // localhost: 3333).
+
+## 📄 License
+
+This project is under the MIT license. See the [LICENSE] file (LICENSE.md) for more details.
+
+---
+
+Made with ♥ by Samuel with [Rocketseat](https://rocketseat.com.br/)
